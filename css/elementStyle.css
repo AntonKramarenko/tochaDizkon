@@ -1,0 +1,21 @@
+.button {
+  height: 48px;
+  background-color: #685ed6;
+  color: #ffffff;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.button-black {
+  background-color: #18191f;
+}
+
+.button:hover {
+  background-color: #f1e4ff;
+}
+
+.headline {
+  font-size: 46px;
+  font-weight: 800;
+  text-align: center;
+}

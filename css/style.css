@@ -1,0 +1,8 @@
+@import url(./normalize.css);
+@import url(./elementStyle.css);
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #1d2530;
+}
