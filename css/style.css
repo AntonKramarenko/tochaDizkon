@@ -6,3 +6,84 @@ body {
   font-weight: 400;
   color: #1d2530;
 }
+
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #f2f7ff;
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo-name {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.header-main__registration-btn > button {
+  margin-left: 12px;
+}
+
+.header-content {
+  margin-top: 130px;
+}
+
+.header-content__title {
+  max-width: 435px;
+  width: 100%;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.header-content__title > span {
+  display: block;
+}
+
+.header-content__subtitle {
+  font-size: 24px;
+  max-width: 495px;
+  width: 100%;
+}
+
+.header-content > div > span {
+  color: #685ed6;
+}
+
+.header-content__title {
+  margin-bottom: 24px;
+}
+
+.header-content__subtitle {
+  margin-bottom: 30px;
+}
+
+.header-img {
+  position: absolute;
+  top: 160px;
+  right: 167px;
+}
+
+.header-img > img {
+  max-width: 725px;
+  width: 100%;
+}
