@@ -14,7 +14,6 @@ body {
 }
 
 .header {
-  height: 100vh;
   padding-top: 30px;
 }
 
@@ -42,6 +41,7 @@ body {
 
 .header-content {
   margin-top: 130px;
+  padding-bottom: 200px;
 }
 
 .header-content__title {
@@ -93,7 +93,7 @@ body {
 
 .feature-content__items {
   margin-top: 70px;
-  padding-bottom: 82px;
+  padding-bottom: 120px;
 }
 
 .feature-content__item {
@@ -130,4 +130,55 @@ body {
   position: absolute;
   top: 100px;
   right: 100px;
+}
+
+/* tarif */
+
+.tarif {
+  padding-top: 100px;
+}
+.tarif-subtitle {
+  font-size: 16px;
+  margin: 16px auto 40px;
+}
+
+.tarif-items > ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tarif-item {
+  width: 32%;
+  text-align: center;
+  background-color: #fcfeff;
+  border-radius: 6px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  margin-bottom: 100px;
+}
+
+.tarif-item__title {
+  background-color: rgba(104, 94, 214, 0.05);
+  padding: 12px 0;
+  font-weight: bold;
+  font-size: 24px;
+}
+.tarif-item__subtitle {
+  font-size: 26px;
+  font-weight: bold;
+  max-width: 270px;
+  width: 100%;
+  margin: 35px auto;
+}
+
+.tarif-item__price {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 45px;
+}
+
+.tarif-item__button {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 66px;
+  margin-bottom: 50px;
 }
