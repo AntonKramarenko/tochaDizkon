@@ -355,3 +355,59 @@ body {
   padding: 14px 24px;
   position: absolute;
 }
+
+/* footer  */
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #1d2530;
+  padding: 110px 0;
+}
+
+.footer__logo {
+  display: block;
+  justify-content: center;
+}
+
+.footer__logo > .logo-icon > img {
+  width: 90px;
+}
+
+.footer__logo > .logo-name {
+  color: #fff;
+}
+
+.footer-link__box {
+  color: #fff;
+  display: flex;
+  margin-right: 130px;
+}
+
+.footer-link__box-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 35px;
+  margin-right: 130px;
+}
+
+.footer-link__box-item {
+  margin-bottom: 12px;
+  width: 150px;
+}
+
+.footer-link__box-item > a {
+  color: #fff;
+  margin-bottom: 12px;
+  font-weight: 200;
+  max-width: 190px;
+}
+
+.footer-link__box-item > a:hover {
+  color: #685ed6;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
