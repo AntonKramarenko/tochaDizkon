@@ -315,3 +315,43 @@ body {
   font-size: 14px;
   margin-top: 5px;
 }
+
+/* cta */
+
+.cta-container {
+  display: flex;
+  background: linear-gradient(+30deg, #685ed6 50%, #7b71e4 50%);
+  padding-top: 60px;
+  margin: 90px auto;
+}
+
+.cta-img {
+  margin: 0 110px;
+}
+
+.cta-box {
+  max-width: 475px;
+  width: 100%;
+}
+
+.cta__title {
+  font-size: 33px;
+  color: #fff;
+  text-align: left;
+  font-weight: 800;
+}
+
+.cta-box__sendImeil-email {
+  max-width: 248px;
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 15px;
+}
+
+.cta-box__sendImeil-btn {
+  background-color: #18191f;
+  color: #fff;
+  font-size: 15px;
+  padding: 14px 24px;
+  position: absolute;
+}

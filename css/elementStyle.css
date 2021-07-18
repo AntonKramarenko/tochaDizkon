@@ -4,8 +4,6 @@
   color: #ffffff;
   border-radius: 6px;
   font-size: 18px;
-  outline: none;
-  border: none;
   padding: 8px 10px;
 }
 
@@ -13,10 +11,10 @@
   background-color: #18191f;
 }
 
-.button:hover {
+button:hover {
   background-color: #f1e4ff;
   color: #685ed6;
-  cursor: pointer;
+
   transition: all 0.2s linear;
 }
 
