@@ -16,6 +16,8 @@
 .button:hover {
   background-color: #f1e4ff;
   color: #685ed6;
+  cursor: pointer;
+  transition: all 0.2s linear;
 }
 
 .headline {
